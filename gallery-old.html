@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="vendors/jquery.mobile.structure-1.4.2.min.css" />
+        <link rel="stylesheet" href="vendors/jquery.mobile.flatui.css" />
+        <link rel="stylesheet" href="vendors/jquery.mobile.icons.min.css" />
+        
+        <!-- JS FILES -->
+        <script type="text/javascript" src="vendors/jquery-1.10.1.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true&language=en"></script>
+        <script type="text/javascript" src="vendors/iscroll.js"></script>
+        <script type="text/javascript" src="vendors/jquery.mobile.iscrollview.js"></script>
+        <script type="text/javascript" src="vendors/jquery.mobile-1.4.2.min.js"></script>
+        <script type="text/javascript" src="vendors/cordova.js"></script>
+        <script type="text/javascript" src="vendors/swipe-page.js"></script>
+<script>
+    
+    var theme="a";
+    
+    </script>
+</head>
+
+<body>
+
+    
+<div data-role="page" id="img1" class="gallery" data-dom-cache="true" data-theme="a" data-prev="" data-next="img2" data-url="img1">
+
+    <div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
+         <div align="center">
+                <h3>Gallery</h3>
+                </div>
+        <a href="index.html" rel="external" data-direction="reverse" data-icon="delete" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
+    </div><!-- /header -->
+    <div data-role="content">
+        <div id="info-img1" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="b">
+            <a href="#" data-rel="back" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+            <p><br/>Gift bouquets for all occasions Anniversaries, Congratulations, Thank You. Add a balloon for a Birthday or just send a Handtied Bouquet to say Hello.</p>
+        </div><!-- /popup -->
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="ftr" data-tap-toggle="false">
+        <div data-role="controlgroup" class="control ui-btn-left" data-type="horizontal" data-mini="true">
+            <a href="#" class="prev" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="b">Previous</a>
+            <a href="#" class="next" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="b">Next</a>
+        </div>
+        <a href="#info-img1" data-rel="popup" class="trivia-btn ui-btn-right" data-role="button" data-icon="info" data-iconpos="left" data-theme="b" data-mini="true">Info</a>
+    </div><!-- /footer -->
+</div>
+
+
+
+
+
+
+
+
+<div data-role="page" id="img2" class="gallery" data-dom-cache="true" data-theme="a" data-prev="img1" data-next="img3" data-url="img2">
+  
+    <div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
+        <div align="center">
+                <h3>Gallery</h3>
+                </div>
+        <a href="index.html" rel="external"  data-direction="reverse" data-icon="delete" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
+    </div><!-- /header -->
+    <div data-role="content">
+        <div id="info-img2" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="d">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+            <p><br/>baskets and arrangements are available on request. From tiny teacups to hamper baskets, cup cakes to table centres tailored to you.
+*please note teacup arrangements vary greatly due to the vintage style and we can't always get matching sets.</p>
+        </div><!-- /popup -->
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="ftr" data-tap-toggle="false">
+        <div data-role="controlgroup" class="control ui-btn-left" data-type="horizontal" data-mini="true">
+            <a href="#" class="prev" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="d">Previous</a>
+            <a href="#" class="next" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="d">Next</a>
+        </div>
+        <a href="#info-img2" data-rel="popup" class="trivia-btn ui-btn-right" data-role="button" data-icon="info" data-iconpos="left" data-theme="d" data-mini="true">Info</a>
+    </div><!-- /footer -->
+</div>
+
+
+
+
+
+
+<div data-role="page" id="img3" class="gallery" data-dom-cache="true" data-theme="a" data-prev="img2" data-next="img4" data-url="img3">
+   
+    <div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
+        <div align="center">
+                <h3>Gallery</h3>
+                </div>
+        <a href="index.html" rel="external" data-direction="reverse" data-icon="delete" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
+    </div><!-- /header -->
+    <div data-role="content">
+        <div id="info-img3" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="d">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+            <p><br/>Congratulations! Planning a Wedding is exciting and getting everything perfect is what we do. We will help you choose from hundreds of beautiful flowers to compliment your wedding. No wedding is too big or too small and with Brides Bouquets starting at just £30 we help to ensure you have everything you need to celebrate your perfect day!</p>
+        </div><!-- /popup -->
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="ftr" data-tap-toggle="false">
+        <div data-role="controlgroup" class="control ui-btn-left" data-type="horizontal" data-mini="true">
+            <a href="#" class="prev" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="d">Previous</a>
+            <a href="#" class="next" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="d">Next</a>
+        </div>
+        <a href="#info-img3" data-rel="popup" class="trivia-btn ui-btn-right" data-role="button" data-icon="info" data-iconpos="left" data-theme="d" data-mini="true">Info</a>
+    </div><!-- /footer -->
+</div>
+
+
+
+
+
+<div data-role="page" id="img4" class="gallery" data-dom-cache="true" data-theme="a" data-prev="img3" data-next="" data-url="img4">
+
+    <div data-role="header" data-position="fixed" data-fullscreen="true" data-id="hdr" data-tap-toggle="false">
+        <div align="center">
+                <h3>Gallery</h3>
+                </div>
+        <a href="index.html" rel="external" data-direction="reverse" data-icon="delete" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
+    </div><!-- /header -->
+    <div data-role="content">
+        <div id="info-img4" class="trivia ui-content" data-role="popup" data-position-to="window" data-tolerance="50,30,30,30" data-theme="d">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+            <p><br/>Choosing the flowers to say goodbye is an emotional time, we can help you choose your flowers with a private consultation either at your home or in our shop. Our flowers are delivered on the day so they are fresh and in the best condition for your day,</p>
+        </div><!-- /popup -->
+    </div><!-- /content -->
+    <div data-role="footer" data-position="fixed" data-fullscreen="true" data-id="ftr" data-tap-toggle="false">
+        <div data-role="controlgroup" class="control ui-btn-left" data-type="horizontal" data-mini="true">
+            <a href="#" class="prev" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-theme="d">Previous</a>
+            <a href="#" class="next" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-theme="d">Next</a>
+        </div>
+        <a href="#info-img4" data-rel="popup" class="trivia-btn ui-btn-right" data-role="button" data-icon="info" data-iconpos="left" data-theme="d" data-mini="true">Info</a>
+    </div><!-- /footer -->
+</div>
+    
+    <script>
+    
+           
+            $("div [data-role]").attr("data-theme",theme);
+            
+            $("a").attr("data-theme",theme);
+            
+            $("div [data-role=content]").attr("data-theme","");
+            
+    
+    </script>
+    
+    
+    
+    </body>
+
+</html>
