@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.appliam.roosters" version="1.0.0">
-  <name>Roosters </name>
-  <description>Chicken & Pizza Takeaway in Darwen, Lancashire. </description>
+  <name>Roosters</name>
+  <description>Chicken and Pizza Takeaway in Darwen, Lancashire. </description>
   <author href="http://www.appliam.com" email="support@appliam.com">Appliam</author>
   <content src="index.html"/>
 
